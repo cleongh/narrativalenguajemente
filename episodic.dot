@@ -1,0 +1,27 @@
+digraph episodicbuffer {
+rankdir=BT
+compound=true
+
+subgraph cluster_ca {
+label = "Arquitectura cognitiva"
+
+subgraph cluster_ltm {
+label = "Memoria a largo plazo"
+episodic_memory [label="Memoria episódica" shape=box]
+semantic_memory [label="Memoria semántica" shape=box]
+}
+subgraph cluster_wm {
+
+label = "Memoria de trabajo"
+episodic_buffer [label="Buffer episódico" shape=box]
+episodic_buffer -> episodic_buffer [label="análisis"]
+}
+
+input -> episodic_buffer [label="percepción"]
+input -> episodic_buffer [lhead=cluster_wm]
+
+episodic_buffer -> episodic_memory [dir="both" label="almacenaje/recuperación"]
+episodic_buffer -> semantic_memory [dir="both" label="almacenaje/recuperación"]
+}
+
+}

@@ -1,0 +1,20 @@
+digraph kernelsatellite {
+rankdir=TB
+
+sat1 [label="satélite 1"]
+sat2 [label="satélite 2"]
+{sat1 sat2 rank=same}
+i1 [style=invis]
+{i1 kernel rank=same}
+{sat1 sat2} -> i1 [style=invis]
+sat3 [label="satélite 3"]
+sat4 [label="satélite 4"]
+kernel [label="núcleo"]
+
+i1 -> kernel [style=invis]
+kernel -> sat1 [label="lugar"]
+kernel -> sat2[label="tiempo"]
+kernel -> sat3[label="causa"]
+kernel -> sat4[label="agencia"]
+
+}
