@@ -95,11 +95,37 @@ Propp, Barthes, Genette... no resolvieron todo el problema
 
 ...
 
-# Nada tenía la respuesta
+# El dinosaurio
 
-Así que empezamos a trabajar para encontrarla
+> Cuando despertó, el dinosaurio todavía estaba allí.
+
+Augusto Monterroso, 1959 <!-- .element: class="fragment" data-fragment-index="" -->
+
+...
+
+# El emigrante
+
+> —¿Olvida usted algo? <br/>
+> —¡Ojalá!
+
+ Luis Felipe Lomelí, 2005
+
+...
+
+# Luis XIV
+
+> Yo.
+
+Juan Pedro Aparicio, 2006
+
 
 |||
+
+
+# ¿Cómo conseguir que una máquina cuente historias?
+
+...
+
 
 # La máquina que sabe contar cuentos
 
@@ -191,7 +217,7 @@ El lector es tan importante como el escritor
 
 Casi toda la historia ocurre en la mente del lector <!-- .element: class="fragment" data-fragment-index="1" -->
 
-|||
+...
 
 ![ICTIVS](ictivs.png)
 
