@@ -1,18 +1,13 @@
-<!-- Intro: ejemplos -->
-```
-  32
-+ 94
-----
- 126
-```
+`
+$$ \begin{align} 32 & \\ +~ 94 & \\ \hline 126 & \end{align} $$
+`
 
-<!-- TODO: ¿qué tal el $$\LaTeX$$ ? -->
 
 ...
 
-<!-- TODO: la Biblia (no, otra cosa... Esopo!) -->
+<!-- .slide: data-background="foxcrow.jpg" -->
 
-El cuervo y la zorra
+La zorra y el cuervo
 
 ...
 
@@ -20,9 +15,13 @@ El cuervo y la zorra
 
 ...
 
-TODO: imagen de una cita
+<!-- .slide: data-background="date.jpg" -->
+
+La historia de aquella primera cita
 
 ...
+
+<!-- .slide: data-background="tortilla.jpg" -->
 
 - Pelar y cortar las papas
 - Freir papas en aceite de oliva
@@ -41,11 +40,6 @@ notes: son historias
 ...
 
 # Todas las sociedades usan narrativa
-
-...
-
-TODO: decir cuándo empiezan a contar historias los niños
-
 ...
 
 # Muchos recuerdos son narrativas
@@ -66,17 +60,17 @@ notes: porque es el lenguaje de la mente, y lo voy a probar
 
 |||
 
-# Volvamos al principio...
+# La narrativa es **fundamental** para la IA
 
 notes: MI historia
 
 ...
 
-# ¿Qué necesita una *inteligencia artificial para contar un cuento?
+# La IA necesita múltiples disciplinas para ser narrativa
 
-- Computación <!-- .element: class="fragment" data-fragment-index="3" -->
-- Narratología <!-- .element: class="fragment" data-fragment-index="1" -->
-- Creatividad <!-- .element: class="fragment" data-fragment-index="2" -->
+- Computación <!-- .element: class="fragment" data-fragment-index="1" -->
+- Narratología <!-- .element: class="fragment" data-fragment-index="2" -->
+- Creatividad <!-- .element: class="fragment" data-fragment-index="3" -->
 
 ...
 
@@ -86,17 +80,16 @@ Hace falta saber **qué** queremos transmitir
 
 ...
 
-# Las estructuras que definen la narrativa
+# Las estructuras narratológicas no son completas
 
-Propp, Barthes, Genette...
+Propp, Barthes, Genette... no resolvieron todo el problema
 
-¡Hay muchos fenómenos que **no son capaces de describir**! <!-- .element: class="fragment" data-fragment-index="1" -->
 
 ...
 
 # La creatividad es...
 
-... ¿qué es la creatividad? <!-- .element: class="fragment" data-fragment-index="1" -->
+¿qué es la creatividad? <!-- .element: class="fragment" data-fragment-index="1" -->
 
 ...
 
@@ -106,9 +99,9 @@ Así que empezamos a trabajar para encontrarla
 
 |||
 
-# La construcción del generador de historias
+# La máquina que sabe contar cuentos
 
-Una historia que aún no ha terminado
+La historia que aún estamos escribiendo
 
 ...
 
@@ -116,13 +109,11 @@ Comenzamos escribiendo algoritmos que encadenaban eventos
 
 ...
 
-```
-Juan fue a la ciudad
-Juan conoció a María
-Juan se enamoró
-María se enamoró
+Juan fue a la ciudad <br/>
+Juan conoció a María <br/>
+Juan se enamoró <br/>
+María se enamoró <br/>
 Juan y María se casaron
-```
 
 ...
 
@@ -130,15 +121,11 @@ Pronto nos dimos cuenta de que incluir información era un problema
 
 ...
 
-```
-Juan fue a la ciudad
-Juan tuvo un accidente y murió
-Juan se enamoró
-María se enamoró
+Juan fue a la ciudad <br/>
+Juan tuvo un accidente y **murió** <br/>
+Juan se enamoró <br/>
+María se enamoró <br/>
 Juan y María se casaron
-```
-
-(Hemos a Juan en un muerto viviente) <!-- .element: class="fragment" data-fragment-index="1" -->
 
 ...
 
@@ -159,20 +146,32 @@ Una narrativa no es sólo una sucesión de eventos
 - Façade
 - Fabulist
 
-
 ...
 
-TODO: stella
+<!-- .slide: data-background="stella.png" -->
+
+# stella
 
 ...
 
 <!-- .slide: data-background="beyondthefence.png" -->
 
+# Beyond the Fence
+
 notes:
 
 **y hasta esto!** fin sección
 
+...
+
+<https://www.youtube.com/watch?v=VZzI4sfCFjc>
+
+
 |||
+
+# Pero necesitábamos más conocimento, más *multidisciplinaridad*
+
+...
 
 # El lector
 
@@ -186,13 +185,13 @@ El lector es tan importante como el escritor
 
 ...
 
-El lector *también es creativo*
+# El lector *también es creativo*
 
 Casi toda la historia ocurre en la mente del lector <!-- .element: class="fragment" data-fragment-index="1" -->
 
 |||
 
-TODO: foto de ICTIVS
+![ICTIVS](ictivs.png)
 
 |||
 
@@ -239,9 +238,6 @@ La narratología moderna (Bruner, Herman, Szilas) propone ver la narrativa como 
 
 ![Cognición y narrativa](episodic.svg)
 
-...
-
-![Núcleos y satélites](satellites.svg)
 
 |||
 
@@ -253,50 +249,73 @@ notes: hemos empezado a investigar
 
 ...
 
+<!-- .slide: data-background="experiment.jpg" -->
+
 # Componentes principales de una historia
 
-![Experimento componentes](experiment.jpg)
+<!-- ![Experimento componentes](experiment.jpg) -->
 
 ...
+
+<!-- .slide: data-background="distance.png" -->
 
 # Historias como re-representación de la realidad
 
-![Distancia media de referencia de eventos de una historia](distance.png)
+<!-- ![Distancia media de referencia de eventos de una historia](distance.png) -->
 
 ...
+
+<!-- .slide: data-background="decorative.png" -->
 
 # Impacto de los elementos decorativos
 
-![Correlación suspense-elementos decorativos](decorative.png)
+<!-- ![Correlación suspense-elementos decorativos](decorative.png) -->
 
 ...
+
+<!-- .slide: data-background="suspense.png" -->
+
+# Información, suspense y diversión
+
+...
+
+<!-- .slide: data-background="cables.jpg" -->
 
 # Reacciones físicas del lector
 
-![Medición de suspense](cables.jpg)
+|||
 
-||| 
-
-# La generación por ordenador necesita tener en cuenta la mente humana
+# Y, después de todo, ¿qué hemos aprendido?
 
 ...
 
-Es importante saber qué sabe y recuerda el lector
+## La narrativa ocurre de forma constante y natural en las personas
 
 ...
 
-Necesitamos saber qué establece el *principio* y el *final* de una historia
+## Las estructuras narratológicas describen mucho
+
+(pero no todo)
 
 ...
 
-La respuesta emocional es crucial
+## Es necesario modelar al lector
 
 ...
 
-Estudiar a las personas puede ser la clave
+## La creatividad es crucial en el fenómeno narrativo
+
+|||
+
+
+# Crear una IA narrativa requiere
+
+- Computación
+- Narratología
+- Psicología
+- Ciencias cognitivas
+- Creatividad Computacional
 
 ...
 
-# No sólo la narrativa necesita cognición
-
-Todas las ramas de la creatividad computacional necesitan tenerla en cuenta
+# Es necesario un enfoque multidisciplinar
