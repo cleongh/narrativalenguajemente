@@ -167,6 +167,8 @@ Una narrativa no es sólo una sucesión de eventos
 
 ...
 
+<!-- .slide: data-background="mexica.jpg" -->
+
 - TaleSpin
 - Minstrel
 - MEXICA
