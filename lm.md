@@ -1,9 +1,3 @@
-`
-$$ \begin{align} 32 & \\ +~ 94 & \\ \hline 126 & \end{align} $$
-`
-
-
-...
 
 <!-- .slide: data-background="foxcrow.jpg" -->
 
@@ -29,6 +23,14 @@ La historia de aquella primera cita
 - Escurrir las papas
 - Mezclar con el huevo
 - Cuajar en la sartén por ambos lados
+
+...
+
+`
+$$ \begin{align} 32 & \\ +~ 94 & \\ \hline 126 & \end{align} $$
+`
+
+
 
 |||
 <!-- las conclusiones -->
